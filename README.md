@@ -43,5 +43,15 @@ This reads `data/raw/messy_samples.csv` and writes the structured result to
 `data/processed/samples_regex_clean.csv`. Original values are kept beside
 their standardized versions so that each change can be checked.
 
-Additional cleaning and comparison commands will be added after each script
-is written and tested.
+Clean the FASTA data with the regex-based script:
+
+```powershell
+uv run python scripts/clean_sequences_regex.py
+```
+
+This reads `data/raw/messy_sequences.fasta` and writes the structured result
+to `data/processed/sequences_regex_clean.csv`. The original header is kept,
+and declared sequence lengths are checked against the observed lengths.
+
+Comparison commands will be added after the remaining parts are written and
+tested.
