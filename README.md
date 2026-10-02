@@ -23,4 +23,15 @@ uv sync
 
 ## Running the project
 
-Exact commands will be added after each script is written and tested.
+Download fresh copies of both course datasets:
+
+```powershell
+uv run python scripts/download_data.py
+```
+
+The files are saved in `data/raw/`. This folder is ignored by Git because
+the original data should be loaded from its source instead of committed to
+this repository.
+
+Cleaning and comparison commands will be added after each script is written
+and tested.
