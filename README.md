@@ -33,5 +33,15 @@ The files are saved in `data/raw/`. This folder is ignored by Git because
 the original data should be loaded from its source instead of committed to
 this repository.
 
-Cleaning and comparison commands will be added after each script is written
-and tested.
+Clean the clinical sample data with the regex-based script:
+
+```powershell
+uv run python scripts/clean_samples_regex.py
+```
+
+This reads `data/raw/messy_samples.csv` and writes the structured result to
+`data/processed/samples_regex_clean.csv`. Original values are kept beside
+their standardized versions so that each change can be checked.
+
+Additional cleaning and comparison commands will be added after each script
+is written and tested.
