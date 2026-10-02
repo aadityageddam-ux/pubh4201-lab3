@@ -1,0 +1,30 @@
+# Secrets
+.env
+
+# Python and Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# R and RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Quarto and knitr
+.quarto/
+*_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded source data stays local. Cleaned deliverables are committed.
+data/raw/

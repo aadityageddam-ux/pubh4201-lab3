@@ -1,0 +1,9 @@
+[project]
+name = "pubh4201-lab3"
+version = "0.1.0"
+description = "Regex and AI-assisted parsing of messy health and genomic data"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas>=2.2",
+]
