@@ -62,3 +62,14 @@ uv run python scripts/compare_outputs.py
 The script writes record-level comparisons for both datasets and a summary by
 field. It reports exact agreement separately from semantic agreement so that
 formatting choices are not mistaken for different underlying values.
+
+Build the extra-credit samples × features × metadata table:
+
+```powershell
+uv run python scripts/build_feature_table.py
+```
+
+This creates `data/processed/samples_feature_table.csv` from the regex-cleaned
+clinical table. It keeps one row per sample, uses standardized glucose as the
+feature, retains analysis-relevant metadata and QC flags, and excludes patient
+names from the analytic table.
