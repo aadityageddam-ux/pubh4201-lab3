@@ -4,7 +4,9 @@ This repository contains my work for Lab 3 in PUBH 4201. The project compares re
 
 ## Project status
 
-The repository structure and Python environment are being set up. Cleaning and comparison instructions will be added as each part is completed and tested.
+Complete. This repository contains regex-based and AI-assisted cleaning for
+both course datasets, their comparison tables, the extra-credit analytic
+feature table, and the final comparison write-up.
 
 ## Repository structure
 
