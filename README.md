@@ -53,5 +53,12 @@ This reads `data/raw/messy_sequences.fasta` and writes the structured result
 to `data/processed/sequences_regex_clean.csv`. The original header is kept,
 and declared sequence lengths are checked against the observed lengths.
 
-Comparison commands will be added after the remaining parts are written and
-tested.
+Compare the regex and AI-assisted outputs:
+
+```powershell
+uv run python scripts/compare_outputs.py
+```
+
+The script writes record-level comparisons for both datasets and a summary by
+field. It reports exact agreement separately from semantic agreement so that
+formatting choices are not mistaken for different underlying values.

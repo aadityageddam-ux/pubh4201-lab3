@@ -1,0 +1,16 @@
+dataset,field,records_compared,exact_agreements,exact_disagreements,semantic_agreements,semantic_disagreements
+samples,sample_id,60,0,60,60,0
+samples,patient_name,60,60,0,60,0
+samples,dob,60,60,0,60,0
+samples,sex,60,60,0,60,0
+samples,enrollment_site,60,60,0,60,0
+samples,glucose_value,60,47,13,60,0
+samples,glucose_unit,60,60,0,60,0
+samples,notes,60,56,4,60,0
+sequences,sequence_id,8,0,8,8,0
+sequences,organism,8,8,0,8,0
+sequences,gene,8,8,0,8,0
+sequences,declared_length,8,8,0,8,0
+sequences,observed_length,8,8,0,8,0
+sequences,note,8,8,0,8,0
+sequences,sequence,8,8,0,8,0

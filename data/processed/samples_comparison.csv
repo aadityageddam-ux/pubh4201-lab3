@@ -1,0 +1,481 @@
+dataset,source_record,record_id_raw,field,regex_value,ai_value,exact_match,semantic_match,regex_qc_flags,ai_qc_flags
+samples,2,S0001,sample_id,S-0001,S0001,False,True,,dob_ambiguous_day_month
+samples,2,S0001,patient_name,A. Nguyen,A. Nguyen,True,True,,dob_ambiguous_day_month
+samples,2,S0001,dob,1962-07-09,1962-07-09,True,True,,dob_ambiguous_day_month
+samples,2,S0001,sex,Female,Female,True,True,,dob_ambiguous_day_month
+samples,2,S0001,enrollment_site,Site B,Site B,True,True,,dob_ambiguous_day_month
+samples,2,S0001,glucose_value,145.9,145.9,True,True,,dob_ambiguous_day_month
+samples,2,S0001,glucose_unit,mg/dL,mg/dL,True,True,,dob_ambiguous_day_month
+samples,2,S0001,notes,,,True,True,,dob_ambiguous_day_month
+samples,3,S0002,sample_id,S-0002,S0002,False,True,,
+samples,3,S0002,patient_name,T. Patel,T. Patel,True,True,,
+samples,3,S0002,dob,1974-12-16,1974-12-16,True,True,,
+samples,3,S0002,sex,Male,Male,True,True,,
+samples,3,S0002,enrollment_site,Site C,Site C,True,True,,
+samples,3,S0002,glucose_value,146.1,146.1,True,True,,
+samples,3,S0002,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,3,S0002,notes,,,True,True,,
+samples,4,s-0003,sample_id,S-0003,S0003,False,True,two_digit_year_inferred,
+samples,4,s-0003,patient_name,R. Martinez,R. Martinez,True,True,two_digit_year_inferred,
+samples,4,s-0003,dob,1953-11-24,1953-11-24,True,True,two_digit_year_inferred,
+samples,4,s-0003,sex,Female,Female,True,True,two_digit_year_inferred,
+samples,4,s-0003,enrollment_site,Site B,Site B,True,True,two_digit_year_inferred,
+samples,4,s-0003,glucose_value,84.2,84.2,True,True,two_digit_year_inferred,
+samples,4,s-0003,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred,
+samples,4,s-0003,notes,,,True,True,two_digit_year_inferred,
+samples,5,S0004,sample_id,S-0004,S0004,False,True,,
+samples,5,S0004,patient_name,A. Patel,A. Patel,True,True,,
+samples,5,S0004,dob,1957-02-27,1957-02-27,True,True,,
+samples,5,S0004,sex,Female,Female,True,True,,
+samples,5,S0004,enrollment_site,Site B,Site B,True,True,,
+samples,5,S0004,glucose_value,120.0,120,False,True,,
+samples,5,S0004,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,5,S0004,notes,,,True,True,,
+samples,6,S0005,sample_id,S-0005,S0005,False,True,,
+samples,6,S0005,patient_name,B. Martinez,B. Martinez,True,True,,
+samples,6,S0005,dob,1997-12-02,1997-12-02,True,True,,
+samples,6,S0005,sex,Male,Male,True,True,,
+samples,6,S0005,enrollment_site,Site B,Site B,True,True,,
+samples,6,S0005,glucose_value,138.3,138.3,True,True,,
+samples,6,S0005,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,6,S0005,notes,,,True,True,,
+samples,7,s-0006,sample_id,S-0006,S0006,False,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,7,s-0006,patient_name,R. Kim,R. Kim,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,7,s-0006,dob,1968-12-05,1968-12-05,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,7,s-0006,sex,Female,Female,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,7,s-0006,enrollment_site,Site C,Site C,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,7,s-0006,glucose_value,2881.1,2881.1,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,7,s-0006,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,7,s-0006,notes,,,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,8,S0007,sample_id,S-0007,S0007,False,True,,sex_unknown
+samples,8,S0007,patient_name,T. Martinez,T. Martinez,True,True,,sex_unknown
+samples,8,S0007,dob,1969-09-04,1969-09-04,True,True,,sex_unknown
+samples,8,S0007,sex,Unknown,Unknown,True,True,,sex_unknown
+samples,8,S0007,enrollment_site,Site A,Site A,True,True,,sex_unknown
+samples,8,S0007,glucose_value,206.0,206,False,True,,sex_unknown
+samples,8,S0007,glucose_unit,mg/dL,mg/dL,True,True,,sex_unknown
+samples,8,S0007,notes,,,True,True,,sex_unknown
+samples,9,S0008,sample_id,S-0008,S0008,False,True,,
+samples,9,S0008,patient_name,K. Davis,K. Davis,True,True,,
+samples,9,S0008,dob,1999-08-20,1999-08-20,True,True,,
+samples,9,S0008,sex,Female,Female,True,True,,
+samples,9,S0008,enrollment_site,Site C,Site C,True,True,,
+samples,9,S0008,glucose_value,229.3,229.3,True,True,,
+samples,9,S0008,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,9,S0008,notes,,,True,True,,
+samples,10,s-0009,sample_id,S-0009,S0009,False,True,,
+samples,10,s-0009,patient_name,S. Davis,S. Davis,True,True,,
+samples,10,s-0009,dob,1995-07-19,1995-07-19,True,True,,
+samples,10,s-0009,sex,Male,Male,True,True,,
+samples,10,s-0009,enrollment_site,Site C,Site C,True,True,,
+samples,10,s-0009,glucose_value,185.0,185,False,True,,
+samples,10,s-0009,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,10,s-0009,notes,,,True,True,,
+samples,11,S0010,sample_id,S-0010,S0010,False,True,,dob_ambiguous_day_month;redraw_requested
+samples,11,S0010,patient_name,A. Martinez,A. Martinez,True,True,,dob_ambiguous_day_month;redraw_requested
+samples,11,S0010,dob,1951-10-01,1951-10-01,True,True,,dob_ambiguous_day_month;redraw_requested
+samples,11,S0010,sex,Female,Female,True,True,,dob_ambiguous_day_month;redraw_requested
+samples,11,S0010,enrollment_site,Site C,Site C,True,True,,dob_ambiguous_day_month;redraw_requested
+samples,11,S0010,glucose_value,215.2,215.2,True,True,,dob_ambiguous_day_month;redraw_requested
+samples,11,S0010,glucose_unit,mg/dL,mg/dL,True,True,,dob_ambiguous_day_month;redraw_requested
+samples,11,S0010,notes,re-draw requested,Redraw requested,False,True,,dob_ambiguous_day_month;redraw_requested
+samples,12,S0011,sample_id,S-0011,S0011,False,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,12,S0011,patient_name,B. Davis,B. Davis,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,12,S0011,dob,1961-07-09,1961-07-09,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,12,S0011,sex,Male,Male,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,12,S0011,enrollment_site,Site A,Site A,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,12,S0011,glucose_value,2973.0,2973,False,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,12,S0011,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,12,S0011,notes,,,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,13,S0012,sample_id,S-0012,S0012,False,True,two_digit_year_inferred;missing_sex,dob_ambiguous_day_month;sex_missing;redraw_requested
+samples,13,S0012,patient_name,T. Johnson,T. Johnson,True,True,two_digit_year_inferred;missing_sex,dob_ambiguous_day_month;sex_missing;redraw_requested
+samples,13,S0012,dob,1996-06-07,1996-06-07,True,True,two_digit_year_inferred;missing_sex,dob_ambiguous_day_month;sex_missing;redraw_requested
+samples,13,S0012,sex,,,True,True,two_digit_year_inferred;missing_sex,dob_ambiguous_day_month;sex_missing;redraw_requested
+samples,13,S0012,enrollment_site,Site A,Site A,True,True,two_digit_year_inferred;missing_sex,dob_ambiguous_day_month;sex_missing;redraw_requested
+samples,13,S0012,glucose_value,110.4,110.4,True,True,two_digit_year_inferred;missing_sex,dob_ambiguous_day_month;sex_missing;redraw_requested
+samples,13,S0012,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred;missing_sex,dob_ambiguous_day_month;sex_missing;redraw_requested
+samples,13,S0012,notes,re-draw requested,Redraw requested,False,True,two_digit_year_inferred;missing_sex,dob_ambiguous_day_month;sex_missing;redraw_requested
+samples,14,S0013,sample_id,S-0013,S0013,False,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,14,S0013,patient_name,A. Patel,A. Patel,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,14,S0013,dob,1952-10-26,1952-10-26,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,14,S0013,sex,Female,Female,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,14,S0013,enrollment_site,Site B,Site B,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,14,S0013,glucose_value,2032.5,2032.4,False,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,14,S0013,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,14,S0013,notes,,,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,15,S0014,sample_id,S-0014,S0014,False,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,15,S0014,patient_name,K. Kim,K. Kim,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,15,S0014,dob,1958-09-12,1958-09-12,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,15,S0014,sex,Female,Female,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,15,S0014,enrollment_site,Site B,Site B,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,15,S0014,glucose_value,144.0,144,False,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,15,S0014,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,15,S0014,notes,,,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,16,S0015,sample_id,S-0015,S0015,False,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,16,S0015,patient_name,B. Patel,B. Patel,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,16,S0015,dob,1998-02-11,1998-02-11,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,16,S0015,sex,Male,Male,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,16,S0015,enrollment_site,Site B,Site B,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,16,S0015,glucose_value,1855.9,1855.9,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,16,S0015,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,16,S0015,notes,,,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,17,S0016,sample_id,S-0016,S0016,False,True,missing_sex,sex_missing
+samples,17,S0016,patient_name,A. Davis,A. Davis,True,True,missing_sex,sex_missing
+samples,17,S0016,dob,1958-05-15,1958-05-15,True,True,missing_sex,sex_missing
+samples,17,S0016,sex,,,True,True,missing_sex,sex_missing
+samples,17,S0016,enrollment_site,Site B,Site B,True,True,missing_sex,sex_missing
+samples,17,S0016,glucose_value,157.4,157.4,True,True,missing_sex,sex_missing
+samples,17,S0016,glucose_unit,mg/dL,mg/dL,True,True,missing_sex,sex_missing
+samples,17,S0016,notes,,,True,True,missing_sex,sex_missing
+samples,18,S0017,sample_id,S-0017,S0017,False,True,two_digit_year_inferred;missing_sex,sex_missing
+samples,18,S0017,patient_name,K. Nguyen,K. Nguyen,True,True,two_digit_year_inferred;missing_sex,sex_missing
+samples,18,S0017,dob,2015-07-16,2015-07-16,True,True,two_digit_year_inferred;missing_sex,sex_missing
+samples,18,S0017,sex,,,True,True,two_digit_year_inferred;missing_sex,sex_missing
+samples,18,S0017,enrollment_site,Site A,Site A,True,True,two_digit_year_inferred;missing_sex,sex_missing
+samples,18,S0017,glucose_value,123.4,123.4,True,True,two_digit_year_inferred;missing_sex,sex_missing
+samples,18,S0017,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred;missing_sex,sex_missing
+samples,18,S0017,notes,,,True,True,two_digit_year_inferred;missing_sex,sex_missing
+samples,19,S0018,sample_id,S-0018,S0018,False,True,,
+samples,19,S0018,patient_name,J. Smith,J. Smith,True,True,,
+samples,19,S0018,dob,1957-03-10,1957-03-10,True,True,,
+samples,19,S0018,sex,Female,Female,True,True,,
+samples,19,S0018,enrollment_site,Site B,Site B,True,True,,
+samples,19,S0018,glucose_value,82.2,82.2,True,True,,
+samples,19,S0018,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,19,S0018,notes,,,True,True,,
+samples,20,s-0019,sample_id,S-0019,S0019,False,True,,
+samples,20,s-0019,patient_name,B. Kim,B. Kim,True,True,,
+samples,20,s-0019,dob,2000-09-16,2000-09-16,True,True,,
+samples,20,s-0019,sex,Male,Male,True,True,,
+samples,20,s-0019,enrollment_site,Site A,Site A,True,True,,
+samples,20,s-0019,glucose_value,190.6,190.6,True,True,,
+samples,20,s-0019,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,20,s-0019,notes,,,True,True,,
+samples,21,S0020,sample_id,S-0020,S0020,False,True,,dob_ambiguous_day_month
+samples,21,S0020,patient_name,B. Smith,B. Smith,True,True,,dob_ambiguous_day_month
+samples,21,S0020,dob,2000-07-05,2000-07-05,True,True,,dob_ambiguous_day_month
+samples,21,S0020,sex,Female,Female,True,True,,dob_ambiguous_day_month
+samples,21,S0020,enrollment_site,Site B,Site B,True,True,,dob_ambiguous_day_month
+samples,21,S0020,glucose_value,108.4,108.4,True,True,,dob_ambiguous_day_month
+samples,21,S0020,glucose_unit,mg/dL,mg/dL,True,True,,dob_ambiguous_day_month
+samples,21,S0020,notes,,,True,True,,dob_ambiguous_day_month
+samples,22,S0021,sample_id,S-0021,S0021,False,True,,
+samples,22,S0021,patient_name,K. Davis,K. Davis,True,True,,
+samples,22,S0021,dob,2004-11-16,2004-11-16,True,True,,
+samples,22,S0021,sex,Male,Male,True,True,,
+samples,22,S0021,enrollment_site,Site C,Site C,True,True,,
+samples,22,S0021,glucose_value,88.6,88.6,True,True,,
+samples,22,S0021,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,22,S0021,notes,,,True,True,,
+samples,23,S0022,sample_id,S-0022,S0022,False,True,missing_sex,sex_missing
+samples,23,S0022,patient_name,M. Johnson,M. Johnson,True,True,missing_sex,sex_missing
+samples,23,S0022,dob,2006-11-25,2006-11-25,True,True,missing_sex,sex_missing
+samples,23,S0022,sex,,,True,True,missing_sex,sex_missing
+samples,23,S0022,enrollment_site,Site A,Site A,True,True,missing_sex,sex_missing
+samples,23,S0022,glucose_value,233.0,233,False,True,missing_sex,sex_missing
+samples,23,S0022,glucose_unit,mg/dL,mg/dL,True,True,missing_sex,sex_missing
+samples,23,S0022,notes,,,True,True,missing_sex,sex_missing
+samples,24,S0023,sample_id,S-0023,S0023,False,True,two_digit_year_inferred,
+samples,24,S0023,patient_name,S. Lee,S. Lee,True,True,two_digit_year_inferred,
+samples,24,S0023,dob,1999-06-30,1999-06-30,True,True,two_digit_year_inferred,
+samples,24,S0023,sex,Male,Male,True,True,two_digit_year_inferred,
+samples,24,S0023,enrollment_site,Site A,Site A,True,True,two_digit_year_inferred,
+samples,24,S0023,glucose_value,83.5,83.5,True,True,two_digit_year_inferred,
+samples,24,S0023,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred,
+samples,24,S0023,notes,,,True,True,two_digit_year_inferred,
+samples,25,S0024,sample_id,S-0024,S0024,False,True,,
+samples,25,S0024,patient_name,S. Johnson,S. Johnson,True,True,,
+samples,25,S0024,dob,1953-07-31,1953-07-31,True,True,,
+samples,25,S0024,sex,Female,Female,True,True,,
+samples,25,S0024,enrollment_site,Site C,Site C,True,True,,
+samples,25,S0024,glucose_value,114.9,114.9,True,True,,
+samples,25,S0024,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,25,S0024,notes,,,True,True,,
+samples,26,S0025,sample_id,S-0025,S0025,False,True,two_digit_year_inferred,
+samples,26,S0025,patient_name,M. Lee,M. Lee,True,True,two_digit_year_inferred,
+samples,26,S0025,dob,1965-11-19,1965-11-19,True,True,two_digit_year_inferred,
+samples,26,S0025,sex,Male,Male,True,True,two_digit_year_inferred,
+samples,26,S0025,enrollment_site,Site A,Site A,True,True,two_digit_year_inferred,
+samples,26,S0025,glucose_value,202.6,202.6,True,True,two_digit_year_inferred,
+samples,26,S0025,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred,
+samples,26,S0025,notes,,,True,True,two_digit_year_inferred,
+samples,27,S0026,sample_id,S-0026,S0026,False,True,extreme_glucose_after_conversion;two_digit_year_inferred,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,27,S0026,patient_name,J. Garcia,J. Garcia,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,27,S0026,dob,1953-06-22,1953-06-22,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,27,S0026,sex,Female,Female,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,27,S0026,enrollment_site,Site A,Site A,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,27,S0026,glucose_value,3909.9,3909.9,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,27,S0026,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,27,S0026,notes,,,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,28,S0027,sample_id,S-0027,S0027,False,True,,
+samples,28,S0027,patient_name,T. Johnson,T. Johnson,True,True,,
+samples,28,S0027,dob,1956-03-24,1956-03-24,True,True,,
+samples,28,S0027,sex,Female,Female,True,True,,
+samples,28,S0027,enrollment_site,Site C,Site C,True,True,,
+samples,28,S0027,glucose_value,161.7,161.7,True,True,,
+samples,28,S0027,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,28,S0027,notes,,,True,True,,
+samples,29,S0028,sample_id,S-0028,S0028,False,True,,
+samples,29,S0028,patient_name,S. Smith,S. Smith,True,True,,
+samples,29,S0028,dob,1988-12-26,1988-12-26,True,True,,
+samples,29,S0028,sex,Female,Female,True,True,,
+samples,29,S0028,enrollment_site,Site B,Site B,True,True,,
+samples,29,S0028,glucose_value,179.1,179.1,True,True,,
+samples,29,S0028,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,29,S0028,notes,,,True,True,,
+samples,30,s-0029,sample_id,S-0029,S0029,False,True,,
+samples,30,s-0029,patient_name,M. Johnson,M. Johnson,True,True,,
+samples,30,s-0029,dob,2009-08-04,2009-08-04,True,True,,
+samples,30,s-0029,sex,Female,Female,True,True,,
+samples,30,s-0029,enrollment_site,Site C,Site C,True,True,,
+samples,30,s-0029,glucose_value,222.6,222.6,True,True,,
+samples,30,s-0029,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,30,s-0029,notes,,,True,True,,
+samples,31,S0030,sample_id,S-0030,S0030,False,True,,
+samples,31,S0030,patient_name,M. Kim,M. Kim,True,True,,
+samples,31,S0030,dob,1984-01-06,1984-01-06,True,True,,
+samples,31,S0030,sex,Male,Male,True,True,,
+samples,31,S0030,enrollment_site,Site B,Site B,True,True,,
+samples,31,S0030,glucose_value,168.6,168.6,True,True,,
+samples,31,S0030,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,31,S0030,notes,,,True,True,,
+samples,32,S0031,sample_id,S-0031,S0031,False,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,32,S0031,patient_name,K. Brown,K. Brown,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,32,S0031,dob,1995-11-11,1995-11-11,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,32,S0031,sex,Male,Male,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,32,S0031,enrollment_site,Site C,Site C,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,32,S0031,glucose_value,85.3,85.3,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,32,S0031,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,32,S0031,notes,,,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,33,S0032,sample_id,S-0032,S0032,False,True,,sex_unknown
+samples,33,S0032,patient_name,J. Smith,J. Smith,True,True,,sex_unknown
+samples,33,S0032,dob,1992-08-17,1992-08-17,True,True,,sex_unknown
+samples,33,S0032,sex,Unknown,Unknown,True,True,,sex_unknown
+samples,33,S0032,enrollment_site,Site B,Site B,True,True,,sex_unknown
+samples,33,S0032,glucose_value,229.5,229.5,True,True,,sex_unknown
+samples,33,S0032,glucose_unit,mg/dL,mg/dL,True,True,,sex_unknown
+samples,33,S0032,notes,,,True,True,,sex_unknown
+samples,34,S0033,sample_id,S-0033,S0033,False,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,34,S0033,patient_name,B. Kim,B. Kim,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,34,S0033,dob,2012-06-07,2012-06-07,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,34,S0033,sex,Male,Male,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,34,S0033,enrollment_site,Site B,Site B,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,34,S0033,glucose_value,114.9,114.9,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,34,S0033,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,34,S0033,notes,,,True,True,two_digit_year_inferred,dob_ambiguous_day_month
+samples,35,S0034,sample_id,S-0034,S0034,False,True,extreme_glucose_after_conversion;two_digit_year_inferred,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,35,S0034,patient_name,K. Martinez,K. Martinez,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,35,S0034,dob,1995-04-15,1995-04-15,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,35,S0034,sex,Unknown,Unknown,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,35,S0034,enrollment_site,Site A,Site A,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,35,S0034,glucose_value,3673.9,3673.9,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,35,S0034,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,35,S0034,notes,,,True,True,extreme_glucose_after_conversion;two_digit_year_inferred,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,36,S0035,sample_id,S-0035,S0035,False,True,,
+samples,36,S0035,patient_name,K. Patel,K. Patel,True,True,,
+samples,36,S0035,dob,1956-12-13,1956-12-13,True,True,,
+samples,36,S0035,sex,Female,Female,True,True,,
+samples,36,S0035,enrollment_site,Site A,Site A,True,True,,
+samples,36,S0035,glucose_value,130.5,130.5,True,True,,
+samples,36,S0035,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,36,S0035,notes,,,True,True,,
+samples,37,s-0036,sample_id,S-0036,S0036,False,True,missing_sex,sex_missing
+samples,37,s-0036,patient_name,T. Johnson,T. Johnson,True,True,missing_sex,sex_missing
+samples,37,s-0036,dob,1987-04-21,1987-04-21,True,True,missing_sex,sex_missing
+samples,37,s-0036,sex,,,True,True,missing_sex,sex_missing
+samples,37,s-0036,enrollment_site,Site C,Site C,True,True,missing_sex,sex_missing
+samples,37,s-0036,glucose_value,145.6,145.6,True,True,missing_sex,sex_missing
+samples,37,s-0036,glucose_unit,mg/dL,mg/dL,True,True,missing_sex,sex_missing
+samples,37,s-0036,notes,,,True,True,missing_sex,sex_missing
+samples,38,S0037,sample_id,S-0037,S0037,False,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion;redraw_requested
+samples,38,S0037,patient_name,T. Kim,T. Kim,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion;redraw_requested
+samples,38,S0037,dob,2015-11-28,2015-11-28,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion;redraw_requested
+samples,38,S0037,sex,Unknown,Unknown,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion;redraw_requested
+samples,38,S0037,enrollment_site,Site A,Site A,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion;redraw_requested
+samples,38,S0037,glucose_value,2146.0,2145.9,False,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion;redraw_requested
+samples,38,S0037,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion;redraw_requested
+samples,38,S0037,notes,re-draw requested,Redraw requested,False,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion;redraw_requested
+samples,39,S0038,sample_id,S-0038,S0038,False,True,,dob_ambiguous_day_month;sex_unknown
+samples,39,S0038,patient_name,K. Lee,K. Lee,True,True,,dob_ambiguous_day_month;sex_unknown
+samples,39,S0038,dob,1997-12-02,1997-12-02,True,True,,dob_ambiguous_day_month;sex_unknown
+samples,39,S0038,sex,Unknown,Unknown,True,True,,dob_ambiguous_day_month;sex_unknown
+samples,39,S0038,enrollment_site,Site B,Site B,True,True,,dob_ambiguous_day_month;sex_unknown
+samples,39,S0038,glucose_value,171.6,171.6,True,True,,dob_ambiguous_day_month;sex_unknown
+samples,39,S0038,glucose_unit,mg/dL,mg/dL,True,True,,dob_ambiguous_day_month;sex_unknown
+samples,39,S0038,notes,,,True,True,,dob_ambiguous_day_month;sex_unknown
+samples,40,S0039,sample_id,S-0039,S0039,False,True,annotated_glucose_value;extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_value_annotated;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,40,S0039,patient_name,R. Patel,R. Patel,True,True,annotated_glucose_value;extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_value_annotated;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,40,S0039,dob,1980-04-12,1980-04-12,True,True,annotated_glucose_value;extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_value_annotated;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,40,S0039,sex,Male,Male,True,True,annotated_glucose_value;extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_value_annotated;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,40,S0039,enrollment_site,Site C,Site C,True,True,annotated_glucose_value;extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_value_annotated;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,40,S0039,glucose_value,4346.0,4345.9,False,True,annotated_glucose_value;extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_value_annotated;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,40,S0039,glucose_unit,mg/dL,mg/dL,True,True,annotated_glucose_value;extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_value_annotated;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,40,S0039,notes,,,True,True,annotated_glucose_value;extreme_glucose_after_conversion;two_digit_year_inferred,dob_ambiguous_day_month;glucose_value_annotated;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,41,S0040,sample_id,S-0040,S0040,False,True,,
+samples,41,S0040,patient_name,R. Patel,R. Patel,True,True,,
+samples,41,S0040,dob,2008-06-21,2008-06-21,True,True,,
+samples,41,S0040,sex,Male,Male,True,True,,
+samples,41,S0040,enrollment_site,Site A,Site A,True,True,,
+samples,41,S0040,glucose_value,105.9,105.9,True,True,,
+samples,41,S0040,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,41,S0040,notes,,,True,True,,
+samples,42,S0041,sample_id,S-0041,S0041,False,True,,
+samples,42,S0041,patient_name,K. Nguyen,K. Nguyen,True,True,,
+samples,42,S0041,dob,1965-01-20,1965-01-20,True,True,,
+samples,42,S0041,sex,Male,Male,True,True,,
+samples,42,S0041,enrollment_site,Site A,Site A,True,True,,
+samples,42,S0041,glucose_value,89.5,89.5,True,True,,
+samples,42,S0041,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,42,S0041,notes,,,True,True,,
+samples,43,S0042,sample_id,S-0042,S0042,False,True,annotated_glucose_value,glucose_value_annotated
+samples,43,S0042,patient_name,M. Garcia,M. Garcia,True,True,annotated_glucose_value,glucose_value_annotated
+samples,43,S0042,dob,2006-04-10,2006-04-10,True,True,annotated_glucose_value,glucose_value_annotated
+samples,43,S0042,sex,Female,Female,True,True,annotated_glucose_value,glucose_value_annotated
+samples,43,S0042,enrollment_site,Site C,Site C,True,True,annotated_glucose_value,glucose_value_annotated
+samples,43,S0042,glucose_value,209.0,209,False,True,annotated_glucose_value,glucose_value_annotated
+samples,43,S0042,glucose_unit,mg/dL,mg/dL,True,True,annotated_glucose_value,glucose_value_annotated
+samples,43,S0042,notes,,,True,True,annotated_glucose_value,glucose_value_annotated
+samples,44,S0043,sample_id,S-0043,S0043,False,True,two_digit_year_inferred,sex_unknown
+samples,44,S0043,patient_name,B. Davis,B. Davis,True,True,two_digit_year_inferred,sex_unknown
+samples,44,S0043,dob,1951-02-19,1951-02-19,True,True,two_digit_year_inferred,sex_unknown
+samples,44,S0043,sex,Unknown,Unknown,True,True,two_digit_year_inferred,sex_unknown
+samples,44,S0043,enrollment_site,Site A,Site A,True,True,two_digit_year_inferred,sex_unknown
+samples,44,S0043,glucose_value,148.0,148,False,True,two_digit_year_inferred,sex_unknown
+samples,44,S0043,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred,sex_unknown
+samples,44,S0043,notes,,,True,True,two_digit_year_inferred,sex_unknown
+samples,45,S0044,sample_id,S-0044,S0044,False,True,two_digit_year_inferred,sex_unknown
+samples,45,S0044,patient_name,S. Martinez,S. Martinez,True,True,two_digit_year_inferred,sex_unknown
+samples,45,S0044,dob,1998-04-13,1998-04-13,True,True,two_digit_year_inferred,sex_unknown
+samples,45,S0044,sex,Unknown,Unknown,True,True,two_digit_year_inferred,sex_unknown
+samples,45,S0044,enrollment_site,Site B,Site B,True,True,two_digit_year_inferred,sex_unknown
+samples,45,S0044,glucose_value,218.6,218.6,True,True,two_digit_year_inferred,sex_unknown
+samples,45,S0044,glucose_unit,mg/dL,mg/dL,True,True,two_digit_year_inferred,sex_unknown
+samples,45,S0044,notes,,,True,True,two_digit_year_inferred,sex_unknown
+samples,46,S0045,sample_id,S-0045,S0045,False,True,,
+samples,46,S0045,patient_name,K. Martinez,K. Martinez,True,True,,
+samples,46,S0045,dob,1984-01-01,1984-01-01,True,True,,
+samples,46,S0045,sex,Male,Male,True,True,,
+samples,46,S0045,enrollment_site,Site B,Site B,True,True,,
+samples,46,S0045,glucose_value,223.2,223.2,True,True,,
+samples,46,S0045,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,46,S0045,notes,,,True,True,,
+samples,47,S0046,sample_id,S-0046,S0046,False,True,,
+samples,47,S0046,patient_name,S. Davis,S. Davis,True,True,,
+samples,47,S0046,dob,1967-02-21,1967-02-21,True,True,,
+samples,47,S0046,sex,Female,Female,True,True,,
+samples,47,S0046,enrollment_site,Site C,Site C,True,True,,
+samples,47,S0046,glucose_value,143.2,143.2,True,True,,
+samples,47,S0046,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,47,S0046,notes,,,True,True,,
+samples,48,s-0047,sample_id,S-0047,S0047,False,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,48,s-0047,patient_name,M. Kim,M. Kim,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,48,s-0047,dob,1977-06-21,1977-06-21,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,48,s-0047,sex,Unknown,Unknown,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,48,s-0047,enrollment_site,Site B,Site B,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,48,s-0047,glucose_value,2983.8,2983.8,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,48,s-0047,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,48,s-0047,notes,,,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,49,S0048,sample_id,S-0048,S0048,False,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,49,S0048,patient_name,M. Garcia,M. Garcia,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,49,S0048,dob,1978-04-23,1978-04-23,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,49,S0048,sex,Male,Male,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,49,S0048,enrollment_site,Site A,Site A,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,49,S0048,glucose_value,1962.2,1962.2,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,49,S0048,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,49,S0048,notes,,,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,50,S0049,sample_id,S-0049,S0049,False,True,,redraw_requested
+samples,50,S0049,patient_name,M. Nguyen,M. Nguyen,True,True,,redraw_requested
+samples,50,S0049,dob,1966-02-05,1966-02-05,True,True,,redraw_requested
+samples,50,S0049,sex,Male,Male,True,True,,redraw_requested
+samples,50,S0049,enrollment_site,Site C,Site C,True,True,,redraw_requested
+samples,50,S0049,glucose_value,166.1,166.1,True,True,,redraw_requested
+samples,50,S0049,glucose_unit,mg/dL,mg/dL,True,True,,redraw_requested
+samples,50,S0049,notes,re-draw requested,Redraw requested,False,True,,redraw_requested
+samples,51,S0050,sample_id,S-0050,S0050,False,True,,sex_unknown
+samples,51,S0050,patient_name,K. Garcia,K. Garcia,True,True,,sex_unknown
+samples,51,S0050,dob,2001-07-02,2001-07-02,True,True,,sex_unknown
+samples,51,S0050,sex,Unknown,Unknown,True,True,,sex_unknown
+samples,51,S0050,enrollment_site,Site B,Site B,True,True,,sex_unknown
+samples,51,S0050,glucose_value,149.3,149.3,True,True,,sex_unknown
+samples,51,S0050,glucose_unit,mg/dL,mg/dL,True,True,,sex_unknown
+samples,51,S0050,notes,,,True,True,,sex_unknown
+samples,52,s-0051,sample_id,S-0051,S0051,False,True,,dob_ambiguous_day_month
+samples,52,s-0051,patient_name,K. Garcia,K. Garcia,True,True,,dob_ambiguous_day_month
+samples,52,s-0051,dob,2011-08-02,2011-08-02,True,True,,dob_ambiguous_day_month
+samples,52,s-0051,sex,Male,Male,True,True,,dob_ambiguous_day_month
+samples,52,s-0051,enrollment_site,Site A,Site A,True,True,,dob_ambiguous_day_month
+samples,52,s-0051,glucose_value,216.0,216,False,True,,dob_ambiguous_day_month
+samples,52,s-0051,glucose_unit,mg/dL,mg/dL,True,True,,dob_ambiguous_day_month
+samples,52,s-0051,notes,,,True,True,,dob_ambiguous_day_month
+samples,53,S0052,sample_id,S-0052,S0052,False,True,,sex_unknown
+samples,53,S0052,patient_name,M. Davis,M. Davis,True,True,,sex_unknown
+samples,53,S0052,dob,1989-09-20,1989-09-20,True,True,,sex_unknown
+samples,53,S0052,sex,Unknown,Unknown,True,True,,sex_unknown
+samples,53,S0052,enrollment_site,Site A,Site A,True,True,,sex_unknown
+samples,53,S0052,glucose_value,172.4,172.4,True,True,,sex_unknown
+samples,53,S0052,glucose_unit,mg/dL,mg/dL,True,True,,sex_unknown
+samples,53,S0052,notes,,,True,True,,sex_unknown
+samples,54,S0053,sample_id,S-0053,S0053,False,True,extreme_glucose_after_conversion,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,54,S0053,patient_name,B. Lee,B. Lee,True,True,extreme_glucose_after_conversion,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,54,S0053,dob,1999-07-10,1999-07-10,True,True,extreme_glucose_after_conversion,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,54,S0053,sex,Male,Male,True,True,extreme_glucose_after_conversion,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,54,S0053,enrollment_site,Site A,Site A,True,True,extreme_glucose_after_conversion,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,54,S0053,glucose_value,2585.6,2585.6,True,True,extreme_glucose_after_conversion,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,54,S0053,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,54,S0053,notes,,,True,True,extreme_glucose_after_conversion,dob_ambiguous_day_month;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,55,S0054,sample_id,S-0054,S0054,False,True,,sex_unknown
+samples,55,S0054,patient_name,M. Nguyen,M. Nguyen,True,True,,sex_unknown
+samples,55,S0054,dob,2006-01-28,2006-01-28,True,True,,sex_unknown
+samples,55,S0054,sex,Unknown,Unknown,True,True,,sex_unknown
+samples,55,S0054,enrollment_site,Site A,Site A,True,True,,sex_unknown
+samples,55,S0054,glucose_value,168.0,168,False,True,,sex_unknown
+samples,55,S0054,glucose_unit,mg/dL,mg/dL,True,True,,sex_unknown
+samples,55,S0054,notes,,,True,True,,sex_unknown
+samples,56,S0055,sample_id,S-0055,S0055,False,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,56,S0055,patient_name,S. Brown,S. Brown,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,56,S0055,dob,2011-10-14,2011-10-14,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,56,S0055,sex,Unknown,Unknown,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,56,S0055,enrollment_site,Site A,Site A,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,56,S0055,glucose_value,2884.7,2884.7,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,56,S0055,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,56,S0055,notes,,,True,True,extreme_glucose_after_conversion,sex_unknown;glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,57,S0056,sample_id,S-0056,S0056,False,True,,
+samples,57,S0056,patient_name,A. Garcia,A. Garcia,True,True,,
+samples,57,S0056,dob,2010-06-30,2010-06-30,True,True,,
+samples,57,S0056,sex,Male,Male,True,True,,
+samples,57,S0056,enrollment_site,Site B,Site B,True,True,,
+samples,57,S0056,glucose_value,77.2,77.2,True,True,,
+samples,57,S0056,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,57,S0056,notes,,,True,True,,
+samples,58,S0057,sample_id,S-0057,S0057,False,True,,
+samples,58,S0057,patient_name,K. Garcia,K. Garcia,True,True,,
+samples,58,S0057,dob,1986-08-20,1986-08-20,True,True,,
+samples,58,S0057,sex,Female,Female,True,True,,
+samples,58,S0057,enrollment_site,Site C,Site C,True,True,,
+samples,58,S0057,glucose_value,88.8,88.8,True,True,,
+samples,58,S0057,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,58,S0057,notes,,,True,True,,
+samples,59,S0058,sample_id,S-0058,S0058,False,True,,
+samples,59,S0058,patient_name,A. Brown,A. Brown,True,True,,
+samples,59,S0058,dob,1972-08-23,1972-08-23,True,True,,
+samples,59,S0058,sex,Female,Female,True,True,,
+samples,59,S0058,enrollment_site,Site C,Site C,True,True,,
+samples,59,S0058,glucose_value,142.8,142.8,True,True,,
+samples,59,S0058,glucose_unit,mg/dL,mg/dL,True,True,,
+samples,59,S0058,notes,,,True,True,,
+samples,60,S0059,sample_id,S-0059,S0059,False,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,60,S0059,patient_name,K. Brown,K. Brown,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,60,S0059,dob,1968-04-06,1968-04-06,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,60,S0059,sex,Male,Male,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,60,S0059,enrollment_site,Site A,Site A,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,60,S0059,glucose_value,2682.9,2682.9,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,60,S0059,glucose_unit,mg/dL,mg/dL,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,60,S0059,notes,,,True,True,extreme_glucose_after_conversion,glucose_unit_value_mismatch_suspected;glucose_extreme_after_conversion
+samples,61,S0060,sample_id,S-0060,S0060,False,True,,sex_unknown
+samples,61,S0060,patient_name,A. Davis,A. Davis,True,True,,sex_unknown
+samples,61,S0060,dob,1970-02-27,1970-02-27,True,True,,sex_unknown
+samples,61,S0060,sex,Unknown,Unknown,True,True,,sex_unknown
+samples,61,S0060,enrollment_site,Site A,Site A,True,True,,sex_unknown
+samples,61,S0060,glucose_value,186.6,186.6,True,True,,sex_unknown
+samples,61,S0060,glucose_unit,mg/dL,mg/dL,True,True,,sex_unknown
+samples,61,S0060,notes,,,True,True,,sex_unknown
